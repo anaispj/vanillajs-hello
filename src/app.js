@@ -1,4 +1,3 @@
-/* eslint-disable */
 import "bootstrap";
 import "./style.css";
 
@@ -6,8 +5,6 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = function() {
-  //write your code here
-
   document.getElementById("excuse").innerHTML = generateExcuse();
 };
 
@@ -20,7 +17,7 @@ function generateExcuse() {
     "right on time",
     "when I finished",
     "during my lunch",
-    "while I was praying"
+    "while I was praying",
   ];
 
   let randomWho = Math.floor(Math.random() * who.length);
